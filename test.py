@@ -1,6 +1,4 @@
-
 from pylab import *
-import time
 
 N = 8
 x = zeros((N,N))
