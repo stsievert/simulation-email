@@ -10,8 +10,8 @@ import sys
 USERNAME = sys.argv[1]
 PASSWORD = sys.argv[2]
 
-send_from = "sieve121@umn.edu"
-send_to = ["sieve121@umn.edu"]
+send_from = USERNAME
+send_to = [USERNAME]
 text = "Your simulation results are attached as an image."
 files = ['simulation.png']
 subject = "Simulation results"

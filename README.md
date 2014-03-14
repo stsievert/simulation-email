@@ -20,7 +20,7 @@ keys.
 This script can run Python or Matlab scripts; comment out the appropriate lines
 in `run_and_email.sh`. 
 
-Some further small notes:
+Some further notes (and would be nasty bugs):
 * instead of using `~`, I had to use `/Users/scott/`
 * this script is dependent on having `MATLAB_R2013b.app`. If you have something
   else, change that line in `run_and_email.sh`.
